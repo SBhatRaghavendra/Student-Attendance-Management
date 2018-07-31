@@ -1,0 +1,2 @@
+Primary key constraint name:DEPARTMENT_PK
+Primary key constraint name:COURSE_PK

@@ -1,0 +1,68 @@
+	#top {
+  	  background-color: black;
+          font-family: Verdana, sans-serif;
+  	  }
+
+ .loginForm {
+ 	   color:#1e3356 ;
+	   font-size:24px;
+	   text-align: center; 
+           width: 100px;
+           clear: both;
+	}
+
+.heading {
+	    color: #f7c940;
+ 	    font-size:38px;
+ 	    text-align:center; 
+	}
+.btn-group .button {
+    background-color: #adaca6;
+    border: none;
+    color: #0046bc ;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+.btn-group .button:hover {
+    background-color: #a3a375;
+}
+
+
+table.paddingTable {
+  color:#0561fc;
+  font-size:24px;
+  padding-left: 300px;
+}
+
+table.paddingTable th {
+        padding: 10px;
+      }
+
+table.paddingTable td {
+        font-size: 28px;
+        padding: 10px;
+
+      }
+
+
+#widthOfDropDown
+{
+  width:150px ;
+}
+
+
+
+.logoutLblPos {
+
+   position:fixed;
+   right:10px;
+   top:5px;
+}
+

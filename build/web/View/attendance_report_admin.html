@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Attendance Report</title>
+	 <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" type="text/css" href="../assets/commonCSS/styleCommon.css">
+    <style>
+    	th,td {
+    		padding: 10px;
+    	}
+    </style>
+</head>
+
+
+<style>
+    table,th,td{
+        border: 1px solid white;
+        border-collapse: collapse;
+    }
+    th,td{
+        padding: 5px;
+        text-align: center;
+
+    }
+     p{
+        color: #1aa3ff;
+        padding-left: 600px;
+        font-size:25px;
+    }
+</style>
+
+
+	<body id=top>
+		<h1 class="heading">     Attendance  Status<img src="../assets/images/admin.jpg" alt="Welcome" style="float:left;width:200px; height:200px"><button onclick="goBack()" style="background-color: #d6d6c2;
+    border: none;
+    color: #0052cc ;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;float:right;" >Back</button></h1>
+	<script src="../JS/backButton.js"></script>
+ 			<p>Name :@name<br>
+    		USN :@usn<br>
+    		Department :@dept<br>
+ 					
+    	</p>
+    			<br><br>
+
+      <table style="border:2px solid white;color:#1aa3ff;font-size:24px; width:100% ">
+        <tr>
+            <td align="center">Subject name</td>
+            <td align="center">Subject code </td>
+            <td align="center">attendance %</td>
+        </tr>
+        <tr>
+            <td align="center">@sub1</td>
+            <td align="center">@sub1code</td>
+            <td align="center">@%</td>
+        </tr>
+        <tr>
+            <td align="center">@sub1</td>
+            <td align="center">@sub1code</td>
+            <td align="center ">@%</td>
+        </tr>
+          
+      </table>
+          <br><br>
+ 			
+		
+  </body>
+</html>

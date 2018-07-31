@@ -1,0 +1,14 @@
+SMAP
+delete_005fstudentValidation_jsp.java
+JSP
+*S JSP
+*F
++ 0 delete_studentValidation.jsp
+View/delete_studentValidation.jsp
+*L
+1,16:50
+17,39:67
+55,13:106
+68,5:120
+72,3:125
+*E
